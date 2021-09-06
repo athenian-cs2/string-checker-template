@@ -2,7 +2,7 @@
 
 In this assignment, you'll be writing three methods to carry out some String operations. Using the Java String methods will be very helpful.
 
-The first method is countABC(). This method takes a String as input, and returns the total number of 'a', 'b', or 'c' chars. The method has the following signature: public static int countABC(String str) {}
+The first method is countABC(). This method takes a String as input, and returns the total number of 'a', 'b', or 'c' chars in that String. The method has the following signature: public static int countABC(String str) {}
 
 The second method is containsThe(). This method takes a String as input, and returns a boolean equal to whether or not the String contains "the" or "The". The method has the following signature: public static boolean containsThe(String str) {}
 
@@ -24,14 +24,34 @@ Your string IS NOT a palindrome
 <br />
 <br />
 
-Add code to [MyMain.java](src/main/java/MyMain.java) to do the desired thing.
+Add code to [MyMain.java](src/main/java/MyMain.java) to implement the above methods.
 
 ## Run your code with:
+The easiest way to run your code is to press the play button in [MyMain.java](src/main/java/MyMain.java).
+
+However, you can also run your code by typing the following into the Terminal.
+
 ```shell script
 make run
 ```
 
+Alternatively, if that doesn't work, use:
+
+```shell script
+./gradlew run
+```
+
 ## Run your tests with:
+The easiest way to run your code is to press the play button in [MyTests.java](src/test/java/MyTests.java).
+
+However, you can also run your code by typing the following into the Terminal.
+
 ```shell script
 make test
+```
+
+Alternatively, if that doesn't work, use:
+
+```shell script
+./gradlew test
 ```
